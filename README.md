@@ -1,64 +1,79 @@
-# COS30045 – Data Visualisation  
-## Exercise 0.2 – Energy Website
+# COS30045 – Data Visualisation
 
-Welcome to **Exercise 0.2** for COS30045 Data Visualisation.
+## Introduction
 
-In this exercise, you will build a simple **Energy Data Webpage** using **HTML, CSS, and JavaScript**. The purpose of this exercise is to familiarise you with the development workflow using **GitHub and VS Code**, while preparing the foundation for future data visualisation tasks.
+This repository is for **COS30045: Data Visualisation**. The unit introduces the fundamental principles of **information visualisation**, focusing on how data can be effectively communicated through visual representations. Students will learn design practices that support clear, accurate, and meaningful visual communication.
 
----
+Throughout the unit, students will explore different types of **information graphics and visual representations**, and apply design principles grounded in **human perception and cognition**. The unit emphasises both **critical evaluation of existing visualisations** and the **creation of new visualisations** using real-world datasets.
 
-# Objective
-
-The objectives of this exercise are:
-
-- Understand how to use **GitHub for version control**
-- Practice **web development structure**
-- Build a **basic website**
-- Maintain **regular commits**
-- Identify commits that include **GenAI-generated code**
+Students will develop practical skills in designing and building **web-based interactive visualisations**, using modern web technologies and data visualisation libraries.
 
 ---
 
-# Step 1 – Fork the Repository
+## Unit Learning Outcomes
 
-1. Open this repository.
-2. Click **Fork** at the top right of the page.
-3. This will create a copy of the repository in your GitHub account.
+By successfully completing this unit, students will be able to:
 
-Example:
-
-Original repository : "github.com/rishmaf/COS30045-Data-Visualization/energy-webpage"
-
-Your forked repository : "github.com/yourusername/COS30045-Data-Visualization/energy-webpage"
-
+1. **Critically evaluate data visualisations** and propose improvements based on principles of human perception, cognition, and data visualisation design.
+2. **Apply a structured design process** to create effective and meaningful visualisations.
+3. **Conceptualise and iterate visualisation designs** using sketching and low-fidelity prototyping techniques.
+4. **Create web-based interactive data visualisations** using real-world datasets.
 
 ---
 
-# Step 2 – Clone the Repository
+## Graduate Attributes
 
-Clone your forked repository to your local machine using **VS Code** or the terminal.
+This unit contributes to the development of the following **Swinburne Graduate Attributes**:
+
+- **GA2 – Communication using different media**
+- **GA5 – Information literacy**
+
+These attributes support students in developing the ability to communicate information effectively and work with data responsibly.
+
+---
+
+## Topics Covered
+
+Key topics explored in this unit include:
+
+- Introduction to **data visualisation**
+- Brief **history of data visualisation**
+- **Data visualisation design guidelines** and graphical integrity
+- **Visual variables** (marks and channels)
+- **Visualisation critique**
+- **User tasks** in visualisation usage
+- **Data types and datasets**
+- **Interaction techniques** (manipulating views, filtering)
+- Arranging **tables, graphs, and maps**
+- **Colour theory**
+- **Human perception and cognition**
+- **User research**
+- Introduction to **Data Driven Documents (D3)**
+
+---
 
 
+## Repository Purpose
 
-# Step 3 – Project Structure
+This repository contains the **assignments and exercises for COS30045 – Data Visualisation**.
 
+Each assignment will be provided in a **separate folder within this repository**. Students are required to complete the tasks inside the corresponding assignment folder.
 
-Your project must follow the structure below.
+### How to Work on the Assignments
 
-```bash
-energy-webpage-v1
-│
-├── css
-│   └── styles.css
-│
-├── js
-│   └── scripts.js
-│
-├── images
-│   └── PowerIcon.png
-│
-├── data
-│   └── data.csv
-│
-├── index.html
-└── README.md
+1. **Fork this repository** to your own GitHub account.
+2. **Clone your forked repository** to your local machine.
+3. Open the project in **Visual Studio Code** or your preferred development environment.
+4. Complete the required tasks inside the relevant **assignment folder**.
+5. Commit and push your work regularly to your forked repository.
+
+### Submission
+
+When submitting your assignment:
+
+1. Ensure all your work is pushed to your **forked repository**.
+2. Submit the **link to your forked repository** through the submission system (e.g., Canvas).
+
+Example submission link:
+
+https://github.com/yourusername/COS30045-data-visualisation
