@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Appliance Energy Consumption Website</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo" onclick="showPage('home')">
+        <img src="images/PowerIcon.png" alt="Power Logo" class="logo-img" />
+        <div class="logo-text">
+          <h2>EnergyWise</h2>
+          <p>Australian Appliance Guide</p>
+        </div>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#" id="nav-home" class="active" onclick="showPage('home'); return false;">Home</a></li>
+        <li><a href="#" id="nav-televisions" onclick="showPage('televisions'); return false;">Televisions</a></li>
+        <li><a href="#" id="nav-about" onclick="showPage('about'); return false;">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="page active-page">
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Understanding Appliance Energy Consumption</h1>
+          <p>
+            Welcome to EnergyWise, a simple website about appliance energy consumption in the Australian market.
+            This website helps users explore how household appliances use electricity and why energy-efficient
+            choices matter for both cost savings and sustainability.
+          </p>
+          <button onclick="showPage('televisions')">Explore Televisions</button>
+        </div>
+
+        <div class="hero-box">
+          <h3>Quick Facts</h3>
+          <ul>
+            <li>Energy-efficient appliances can help reduce electricity bills.</li>
+            <li>Australian households use many appliances daily.</li>
+            <li>Choosing the right product can lower power consumption over time.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card-grid">
+        <div class="card">
+          <h2>Why Energy Efficiency Matters</h2>
+          <p>
+            Energy efficiency means using less electricity to perform the same task. In Australia, household
+            appliances such as televisions, refrigerators, washing machines, and air conditioners all contribute
+            to total power usage. Efficient appliances help reduce long-term energy costs.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Australian Market Context</h2>
+          <p>
+            Consumers in the Australian market often compare appliances based on price, energy rating,
+            brand reputation, and features. Energy information helps buyers make smarter decisions and
+            supports more sustainable living habits.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Common Energy Factors</h2>
+          <p>
+            Appliance energy use depends on several factors such as size, technology, frequency of use,
+            operating mode, and standby consumption. Even small differences in efficiency may become important
+            over months or years of usage.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TELEVISIONS -->
+    <section id="televisions" class="page">
+      <h1>Televisions and Energy Consumption</h1>
+      <p class="page-intro">
+        Televisions are common entertainment appliances in Australian homes. Their energy consumption can vary
+        depending on screen size, display type, brightness level, and daily usage habits.
+      </p>
+
+      <div class="card-grid">
+        <div class="card">
+          <h2>What Affects TV Power Use?</h2>
+          <ul>
+            <li>Screen size</li>
+            <li>Display technology such as LED, OLED, or QLED</li>
+            <li>Brightness and picture settings</li>
+            <li>Number of hours used each day</li>
+            <li>Standby mode power usage</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2>Energy-Saving Tips</h2>
+          <ul>
+            <li>Reduce screen brightness when possible</li>
+            <li>Turn off the TV instead of leaving it on standby</li>
+            <li>Choose an energy-efficient model</li>
+            <li>Use eco or power-saving picture modes</li>
+            <li>Switch off unnecessary connected devices</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2>Consumer Considerations</h2>
+          <p>
+            When buying a television in Australia, users should compare not only screen size and image quality,
+            but also expected energy consumption. Larger TVs and higher brightness settings may use more electricity,
+            especially when watched for many hours per day.
+          </p>
+        </div>
+      </div>
+
+      <div class="table-section">
+        <h2>Sample Television Comparison</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>TV Type</th>
+              <th>Screen Size</th>
+              <th>Typical Usage Pattern</th>
+              <th>Energy Consideration</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>LED TV</td>
+              <td>43 inch</td>
+              <td>Moderate daily use</td>
+              <td>Generally suitable for smaller households</td>
+            </tr>
+            <tr>
+              <td>QLED TV</td>
+              <td>55 inch</td>
+              <td>Frequent entertainment use</td>
+              <td>May use more power depending on settings</td>
+            </tr>
+            <tr>
+              <td>OLED TV</td>
+              <td>65 inch</td>
+              <td>High-end viewing experience</td>
+              <td>Premium display with varying energy performance</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="page">
+      <h1>About Us</h1>
+
+      <div class="about-layout">
+        <div class="card">
+          <h2>Purpose of This Website</h2>
+          <p>
+            This website was created as part of a university exercise for learning web development and data
+            visualisation skills. It demonstrates the use of HTML, CSS, and JavaScript in building an
+            interactive multi-section website.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>What This Site Includes</h2>
+          <p>
+            The website contains placeholder information related to appliance energy consumption in the
+            Australian market. It focuses on televisions as an example appliance category and may be
+            expanded later with more appliance types and visual data.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Future Improvements</h2>
+          <p>
+            In future updates, this website may include interactive charts, energy usage comparisons,
+            filtering options, and richer visualisations to help users better understand appliance
+            efficiency and electricity consumption patterns.
+          </p>
+        </div>
+      </div>
+
+      <div class="info-box">
+        <h2>Student Information</h2>
+        <p><strong>Name:</strong> Loh Cheng Wei</p>
+        <p><strong>Unit:</strong> COS30045 Data Visualisation</p>
+        <p><strong>Task:</strong> Exercise 0.2 Build Appliance Energy Consumption Website</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Loh Cheng Wei</p>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
