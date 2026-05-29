@@ -1,0 +1,64 @@
+<section class="page">
+  <h1>Exercise 5 – TV Energy Consumption Charts</h1>
+  <p>
+    This page demonstrates four different chart types using D3.js,
+    exploring TV energy consumption data and Australian electricity spot prices.
+  </p>
+
+  <!-- Chart 1: Scatter Plot -->
+  <section>
+    <h2>1. Scatter Plot – Australian Electricity Spot Prices by State (1998–2024)</h2>
+    <p>
+      Each point represents a state's electricity spot price for a given year.
+      This chart shows how prices have varied across states and over time.
+    </p>
+    <div class="chart-container"><div id="chart-scatter"></div></div>
+    <p>
+      Prices were relatively stable through the 2000s before rising sharply from 2016.
+      The 2021–2022 period saw the highest prices on record across most states.
+    </p>
+  </section>
+
+  <!-- Chart 2: Line Chart -->
+  <section>
+    <h2>2. Line Chart – Mean Energy Consumption by Screen Size and Technology</h2>
+    <p>
+      Each line represents a screen technology (LCD, LCD (LED), OLED).
+      The x-axis shows screen size in inches and the y-axis shows mean annual energy consumption.
+    </p>
+    <div class="chart-container"><div id="chart-line"></div></div>
+    <p>
+      Energy consumption increases consistently with screen size across all technologies.
+      OLED TVs consume the most energy at larger screen sizes.
+    </p>
+  </section>
+
+  <!-- Chart 3: Bar Chart -->
+  <section>
+    <h2>3. Bar Chart – Energy Consumption by Screen Technology (55-inch TVs Only)</h2>
+    <p>
+      By fixing the screen size at 55 inches, this bar chart isolates the effect of
+      screen technology on energy consumption.
+    </p>
+    <div class="chart-container"><div id="chart-bar"></div></div>
+    <p>
+      At 55 inches, LCD uses less energy than LED on average, while OLED remains
+      the most energy-intensive technology.
+    </p>
+  </section>
+
+  <!-- Chart 4: Donut Chart -->
+  <section>
+    <h2>4. Donut Chart – Mean Energy Consumption by Screen Technology (All Sizes)</h2>
+    <p>
+      This donut chart compares the mean annual energy consumption (kWh/year) for
+      LCD, LED, and OLED televisions across all available screen sizes.
+    </p>
+    <div class="chart-container"><div id="chart-donut"></div></div>
+    <p>
+      OLED televisions consume considerably more energy on average than LCD and LED models,
+      making them the least efficient technology type in this dataset.
+    </p>
+  </section>
+
+</section>

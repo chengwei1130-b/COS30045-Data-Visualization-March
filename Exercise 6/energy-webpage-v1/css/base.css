@@ -1,0 +1,118 @@
+/* base.css — General page styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffaf0;
+  color: #3b1f0a;
+  line-height: 1.6;
+}
+
+/* ── Header ── */
+header {
+  background-color: #c0621a;
+  padding: 18px 30px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* ── Main content ── */
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 24px;
+}
+
+main h1 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #3b1f0a;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+main p {
+  font-size: 16px;
+  color: #5a3a1a;
+  margin-bottom: 18px;
+}
+
+/* ── Filter button containers ── */
+#filters_screen,
+#filters_size {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 14px 0 6px 0;
+}
+
+/* ── Filter buttons ── */
+#filters_screen .filter,
+#filters_size .filter {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 8px;
+  background-color: #c0621a;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+#filters_screen .filter:hover,
+#filters_size .filter:hover {
+  background-color: #a04f10;
+  transform: translateY(-1px);
+}
+
+/* Active button is lighter/highlighted */
+#filters_screen .filter.active,
+#filters_size .filter.active {
+  background-color: #f4b55a;
+  color: #3b1f0a;
+}
+
+/* ── Data source section ── */
+.body {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #e0c8a0;
+}
+
+.body h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #3b1f0a;
+  margin-bottom: 6px;
+}
+
+.body a {
+  color: #c0621a;
+  text-decoration: none;
+}
+
+.body a:hover {
+  text-decoration: underline;
+}
+
+/* ── Footer ── */
+footer {
+  margin-top: 40px;
+  background-color: #3b1f0a;
+  color: #fff;
+  text-align: center;
+  padding: 16px;
+  font-size: 14px;
+}

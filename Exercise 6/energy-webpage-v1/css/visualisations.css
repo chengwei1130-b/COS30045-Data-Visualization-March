@@ -1,0 +1,20 @@
+/* visualisations.css — Chart-specific styles */
+/* Code based on Dufour and Meeks (2024) */
+
+/* Responsive container of the svg element */
+.responsive-svg-container {
+  width: 100%;
+  max-width: 1000px;
+}
+
+@media screen and (max-width: 596px) {
+  .responsive-svg-container {
+    margin-bottom: 20px;
+  }
+}
+
+.axis-label {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  fill: #5a3e2b; /* Dark brown */
+}
