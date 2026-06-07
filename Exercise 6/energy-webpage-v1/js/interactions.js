@@ -194,9 +194,9 @@
 
         console.log("Mouse entered circle", d);
 
-        // 1. Update tooltip text with screen size
+        // 1. Update tooltip text with labelled energy consumption
         d3.select(".tooltip-text")
-          .text(d.screenSize);
+          .text(`${d3.format(",")(d.energyConsumption)}`);
 
         // 2. Get the circle's centre position from its SVG attributes
         const cx = e.target.getAttribute("cx");
